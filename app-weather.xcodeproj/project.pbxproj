@@ -14,6 +14,7 @@
 		053EB2A82BB70172002C0FE2 /* app_weatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053EB2A72BB70172002C0FE2 /* app_weatherTests.swift */; };
 		053EB2B22BB70172002C0FE2 /* app_weatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053EB2B12BB70172002C0FE2 /* app_weatherUITests.swift */; };
 		053EB2B42BB70172002C0FE2 /* app_weatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053EB2B32BB70172002C0FE2 /* app_weatherUITestsLaunchTests.swift */; };
+		053EB2C12BB71131002C0FE2 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053EB2C02BB71131002C0FE2 /* WeatherButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		053EB2AD2BB70172002C0FE2 /* app-weatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app-weatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		053EB2B12BB70172002C0FE2 /* app_weatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_weatherUITests.swift; sourceTree = "<group>"; };
 		053EB2B32BB70172002C0FE2 /* app_weatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_weatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		053EB2C02BB71131002C0FE2 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				053EB2952BB70170002C0FE2 /* app_weatherApp.swift */,
 				053EB2972BB70170002C0FE2 /* ContentView.swift */,
+				053EB2C02BB71131002C0FE2 /* WeatherButton.swift */,
 				053EB2992BB70172002C0FE2 /* Assets.xcassets */,
 				053EB29B2BB70172002C0FE2 /* app_weather.entitlements */,
 				053EB29C2BB70172002C0FE2 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				053EB2982BB70170002C0FE2 /* ContentView.swift in Sources */,
 				053EB2962BB70170002C0FE2 /* app_weatherApp.swift in Sources */,
+				053EB2C12BB71131002C0FE2 /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
